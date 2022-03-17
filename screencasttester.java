@@ -5,7 +5,7 @@ import org.junit.*;
 public class screencasttester {
     @Test
     public void testsumarg(){
-        assertEquals(6, screencast.sumargs(2, 4));
+        assertEquals(6, screencast.sumargs(2, 3));
     }
 }
 
@@ -15,7 +15,7 @@ public class screencasttester {
 
 //Linux
 //javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar screencast.java screencasttester.java
-//java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore screenCastTester
+//java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore screencasttester
 
 
 //Login
